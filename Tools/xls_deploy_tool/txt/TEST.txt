@@ -1,0 +1,100 @@
+items {
+  goods_id: 10999
+  name: "\346\265\213\350\257\225\347\245\236\345\231\250"
+  sex: 100
+  level_limit: 0
+  consume_type: 2
+  is_online: 0
+  can_buy: 0
+  can_recharge: 1
+}
+items {
+  goods_id: 10001
+  name: "\347\252\201\345\207\273\346\255\245\346\236\252"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 1
+  can_buy: 1
+  can_recharge: 1
+}
+items {
+  goods_id: 10003
+  name: "\351\253\230\347\210\206\347\202\270\345\274\271"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 1
+  can_buy: 1
+  can_recharge: 1
+}
+items {
+  goods_id: 10005
+  name: "B3\346\215\215\345\215\253\350\200\205\347\201\253\347\202\256"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 1
+  can_buy: 1
+  can_recharge: 1
+}
+items {
+  goods_id: 10011
+  name: "\345\234\237\345\210\266\347\202\270\345\274\271"
+  sex: 100
+  level_limit: 0
+  consume_type: 2
+  is_online: 0
+  can_buy: 0
+  can_recharge: 0
+}
+items {
+  goods_id: 10012
+  name: "G5\345\274\217\346\255\245\346\236\252"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 1
+  can_buy: 1
+  can_recharge: 1
+}
+items {
+  goods_id: 10013
+  name: "\347\245\226\345\215\241\347\201\253\347\256\255\347\255\222"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 1
+  can_buy: 1
+  can_recharge: 1
+}
+items {
+  goods_id: 10014
+  name: "\347\216\204\351\223\201\351\243\236\351\225\226"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 0
+  can_buy: 0
+  can_recharge: 0
+}
+items {
+  goods_id: 10015
+  name: "\347\207\203\347\203\247\347\223\266"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 1
+  can_buy: 1
+  can_recharge: 1
+}
+items {
+  goods_id: 10016
+  name: "\351\272\246\351\207\221\346\211\230\344\273\200\345\206\262\351\224\213\346\236\252"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 1
+  can_buy: 1
+  can_recharge: 1
+}

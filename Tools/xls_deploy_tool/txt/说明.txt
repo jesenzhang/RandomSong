@@ -1,0 +1,4 @@
+一个xlsm对应一个bat
+表格xlsm放在xls文件夹线 bat文件放在xlsbat文件夹下 格式类似
+运行genall.bat  生成的对应文件在对应文件夹下 
+proto文件夹是.proto文件 datda文件夹是数据.data文件

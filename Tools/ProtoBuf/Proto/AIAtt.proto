@@ -1,0 +1,25 @@
+syntax = "proto3";
+ 
+
+message AIAtt
+{
+
+	//	Interval 毫秒
+	
+	//	移动的最小间隔
+	  int32 moveInterval = 1;
+	//	移动半径
+	  float moveRadius = 2;
+	//	攻击的最小间隔
+	  int32 attackInterval = 3;
+	//	每隔指定毫秒一次Update
+	  int32 thinkInterval = 4;
+	//	警戒间隔时间
+	  int32 searchInterval = 5;
+	//	警戒半径
+	  float searchRadius = 6;
+	//	对应Lua脚本名字
+	  string scriptName = 7;
+	//	可旋转角度
+	  float rotateAngle = 8 ;
+}

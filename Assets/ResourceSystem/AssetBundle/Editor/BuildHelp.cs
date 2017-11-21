@@ -3,6 +3,8 @@ using System.IO;
 using UnityEditor;
 using UnityEngine;
 
+using GVFrame.Editor.Tools;
+
 namespace GVFrame.Editor.AssetBundle {
     public class BuildHelp
     {

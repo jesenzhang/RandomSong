@@ -1,0 +1,57 @@
+// Generated from GOODS_INFO.proto
+
+namespace _ProtoBuf;
+
+table GOODS_INFO {
+  goods_id:uint;
+  name:string;
+  sex:uint;
+  level_limit:uint;
+  club_vip_level:int;
+  qb_2:int;
+  consume_type:uint;
+  time_unit:uint;
+  is_online:uint;
+  can_buy:uint;
+  can_recharge:uint;
+  online_time:string;
+  offline_time:string;
+  privileged_plat_id_list:[uint];
+  privileged_plat_is_online:uint;
+  privileged_plat_can_buy:uint;
+  privileged_plat_can_recharge:uint;
+  payment_terms:uint;
+  valid_time:string;
+  sort_priority:uint;
+  suit_number:int;
+  bag_sort_priority:uint;
+  status:string;
+  rank:uint;
+  price_discount:uint;
+  vip_discount:uint;
+  price_table:[_ProtoBuf._GOODS_INFO.Price];
+  goods_attr:[_ProtoBuf._GOODS_INFO.GoodsAttr];
+  description:string;
+  limit_id:uint;
+  subSystemId:string;
+}
+
+namespace _ProtoBuf._GOODS_INFO;
+
+table Price {
+  price_dq:uint;
+  price_gold:uint;
+  price_value:uint;
+}
+
+table GoodsAttr {
+  attr_type:uint;
+  attr_value:uint;
+}
+
+namespace _ProtoBuf;
+
+table GOODS_INFO_ARRAY {
+  items:[_ProtoBuf.GOODS_INFO];
+}
+

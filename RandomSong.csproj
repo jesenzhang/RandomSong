@@ -84,6 +84,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AssetBundleManager\AssetBundleLoadOperation.cs" />
+    <Compile Include="Assets\AssetBundleManager\AssetBundleManager.cs" />
+    <Compile Include="Assets\AssetBundleManager\Utility.cs" />
+    <Compile Include="Assets\AssetBundleSample\Scripts\LoadAssets.cs" />
+    <Compile Include="Assets\AssetBundleSample\Scripts\LoadScenes.cs" />
+    <Compile Include="Assets\AssetBundleSample\Scripts\LoadTanks.cs" />
+    <Compile Include="Assets\AssetBundleSample\Scripts\LoadVariants.cs" />
     <Compile Include="Assets\Base\LeetCode\LeedtCode.cs" />
     <Compile Include="Assets\GameFramework\Base\EventPool\BaseEventArgs.cs" />
     <Compile Include="Assets\GameFramework\Base\EventPool\EventPool.Event.cs" />
@@ -341,6 +348,34 @@
     <Compile Include="Assets\GameFramework\WebRequest\WebRequestSuccessEventArgs.cs" />
     <Compile Include="Assets\ResourceSystem\ResourceManager.cs" />
     <Compile Include="Assets\Scripts\GameEngine.cs" />
+    <Compile Include="Assets\Tools\ProtoBuf\C#\Person.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Tools\openpyxl-2.5.0b1\openpyxl.egg-info\SOURCES.txt" />
+    <None Include="Assets\Tools\openpyxl-2.5.0b1\openpyxl.egg-info\dependency_links.txt" />
+    <None Include="Assets\Tools\openpyxl-2.5.0b1\openpyxl.egg-info\requires.txt" />
+    <None Include="Assets\Tools\openpyxl-2.5.0b1\openpyxl.egg-info\top_level.txt" />
+    <None Include="Assets\Tools\protoc-3.4.0-win32\readme.txt" />
+    <None Include="Assets\Tools\setuptools-36.7.1\docs\developer-guide.txt" />
+    <None Include="Assets\Tools\setuptools-36.7.1\docs\development.txt" />
+    <None Include="Assets\Tools\setuptools-36.7.1\docs\easy_install.txt" />
+    <None Include="Assets\Tools\setuptools-36.7.1\docs\formats.txt" />
+    <None Include="Assets\Tools\setuptools-36.7.1\docs\history.txt" />
+    <None Include="Assets\Tools\setuptools-36.7.1\docs\index.txt" />
+    <None Include="Assets\Tools\setuptools-36.7.1\docs\pkg_resources.txt" />
+    <None Include="Assets\Tools\setuptools-36.7.1\docs\python3.txt" />
+    <None Include="Assets\Tools\setuptools-36.7.1\docs\releases.txt" />
+    <None Include="Assets\Tools\setuptools-36.7.1\docs\requirements.txt" />
+    <None Include="Assets\Tools\setuptools-36.7.1\docs\roadmap.txt" />
+    <None Include="Assets\Tools\setuptools-36.7.1\docs\setuptools.txt" />
+    <None Include="Assets\Tools\setuptools-36.7.1\pkg_resources\_vendor\vendored.txt" />
+    <None Include="Assets\Tools\setuptools-36.7.1\pkg_resources\api_tests.txt" />
+    <None Include="Assets\Tools\setuptools-36.7.1\setuptools.egg-info\SOURCES.txt" />
+    <None Include="Assets\Tools\setuptools-36.7.1\setuptools.egg-info\dependency_links.txt" />
+    <None Include="Assets\Tools\setuptools-36.7.1\setuptools.egg-info\entry_points.txt" />
+    <None Include="Assets\Tools\setuptools-36.7.1\setuptools.egg-info\requires.txt" />
+    <None Include="Assets\Tools\setuptools-36.7.1\setuptools.egg-info\top_level.txt" />
+    <None Include="Assets\Tools\setuptools-36.7.1\setuptools\command\launcher manifest.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

@@ -132,10 +132,50 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ResourceSystem\AssetBundle\Editor\AssetBundleCollection\Asset.cs" />
-    <Compile Include="Assets\ResourceSystem\AssetBundle\Editor\AssetBundleCollection\AssetBundle.cs" />
+    <Compile Include="Assets\AssetBundleManager\Editor\AssetbundlesMenuItems.cs" />
+    <Compile Include="Assets\AssetBundleManager\Editor\BuildScript.cs" />
+    <Compile Include="Assets\AssetBundleManager\Editor\ExecuteInternalMono.cs" />
+    <Compile Include="Assets\AssetBundleManager\Editor\LaunchAssetBundleServer.cs" />
     <Compile Include="Assets\ResourceSystem\AssetBundle\Editor\AssetBundleCollection\AssetBundleCollection.cs" />
+    <Compile Include="Assets\ResourceSystem\AssetBundle\Editor\AssetBundleCollection\AssetBundleCollectionConfigPathAttribute.cs" />
+    <Compile Include="Assets\ResourceSystem\AssetBundle\Editor\AssetbundleBuilder\AssetBundleBuilder.cs" />
+    <Compile Include="Assets\ResourceSystem\AssetBundle\Editor\AssetbundleBuilder\AssetBundleBuilderConfigPathAttribute.cs" />
     <Compile Include="Assets\ResourceSystem\AssetBundle\Editor\BuildHelp.cs" />
+    <Compile Include="Assets\ResourceSystem\AssetBundle\Editor\DataStruct\Asset.cs" />
+    <Compile Include="Assets\ResourceSystem\AssetBundle\Editor\DataStruct\AssetBundle.cs" />
+    <Compile Include="Assets\ResourceSystem\AssetBundle\Editor\DataStruct\AssetBundleLoadType.cs" />
+    <Compile Include="Assets\ResourceSystem\AssetBundle\Editor\DataStruct\AssetBundleType.cs" />
+    <Compile Include="Assets\ResourceSystem\Editor\Misc\ConfigPathAttribute.cs" />
+    <Compile Include="Assets\ResourceSystem\Editor\Misc\DirectoryHelp.cs" />
+    <Compile Include="Assets\ResourceSystem\Editor\Misc\FileHelp.cs" />
+    <Compile Include="Assets\ResourceSystem\Editor\Misc\TypeHelp.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Tools\openpyxl-2.5.0b1\openpyxl.egg-info\SOURCES.txt" />
+    <None Include="Assets\Tools\openpyxl-2.5.0b1\openpyxl.egg-info\dependency_links.txt" />
+    <None Include="Assets\Tools\openpyxl-2.5.0b1\openpyxl.egg-info\requires.txt" />
+    <None Include="Assets\Tools\openpyxl-2.5.0b1\openpyxl.egg-info\top_level.txt" />
+    <None Include="Assets\Tools\protoc-3.4.0-win32\readme.txt" />
+    <None Include="Assets\Tools\setuptools-36.7.1\docs\developer-guide.txt" />
+    <None Include="Assets\Tools\setuptools-36.7.1\docs\development.txt" />
+    <None Include="Assets\Tools\setuptools-36.7.1\docs\easy_install.txt" />
+    <None Include="Assets\Tools\setuptools-36.7.1\docs\formats.txt" />
+    <None Include="Assets\Tools\setuptools-36.7.1\docs\history.txt" />
+    <None Include="Assets\Tools\setuptools-36.7.1\docs\index.txt" />
+    <None Include="Assets\Tools\setuptools-36.7.1\docs\pkg_resources.txt" />
+    <None Include="Assets\Tools\setuptools-36.7.1\docs\python3.txt" />
+    <None Include="Assets\Tools\setuptools-36.7.1\docs\releases.txt" />
+    <None Include="Assets\Tools\setuptools-36.7.1\docs\requirements.txt" />
+    <None Include="Assets\Tools\setuptools-36.7.1\docs\roadmap.txt" />
+    <None Include="Assets\Tools\setuptools-36.7.1\docs\setuptools.txt" />
+    <None Include="Assets\Tools\setuptools-36.7.1\pkg_resources\_vendor\vendored.txt" />
+    <None Include="Assets\Tools\setuptools-36.7.1\pkg_resources\api_tests.txt" />
+    <None Include="Assets\Tools\setuptools-36.7.1\setuptools.egg-info\SOURCES.txt" />
+    <None Include="Assets\Tools\setuptools-36.7.1\setuptools.egg-info\dependency_links.txt" />
+    <None Include="Assets\Tools\setuptools-36.7.1\setuptools.egg-info\entry_points.txt" />
+    <None Include="Assets\Tools\setuptools-36.7.1\setuptools.egg-info\requires.txt" />
+    <None Include="Assets\Tools\setuptools-36.7.1\setuptools.egg-info\top_level.txt" />
+    <None Include="Assets\Tools\setuptools-36.7.1\setuptools\command\launcher manifest.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
