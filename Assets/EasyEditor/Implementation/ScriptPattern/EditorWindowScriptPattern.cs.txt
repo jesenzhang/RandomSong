@@ -1,0 +1,14 @@
+﻿using UnityEditor;
+using UnityEngine;
+using System.Collections;
+using EasyEditor;
+[using]
+public class [UnityObject]EditorWindow : EasyEditorWindowrBase
+{
+		public override string ScriprtName
+        {
+            get {
+                return "[naming]";
+            }
+        }
+}
